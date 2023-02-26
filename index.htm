@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Promotion Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Product Promotion Website</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section id="banner">
+      <h2>Introducing Our Newest Product!</h2>
+      <p>Get ready to experience the next level of innovation.</p>
+	  <button onclick="window.location.href='newpage.html'">Book your Cleaning!</button>
+    </section>
+    
+    <section id="features">
+      <h2>Features</h2>
+      <ul>
+        <li>Low-quality materials</li>
+        <li>Durable construction</li>
+        <li>Advanced technology</li>
+      </ul>
+    </section>
+    
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <blockquote>
+        "This product is amazing! It has completely changed the way I do things."
+        <cite>- John Doe</cite>
+      </blockquote>
+      <blockquote>
+        "I never knew I needed this product until I tried it. Now I can't live without it!"
+        <cite>- Jane Smith</cite>
+      </blockquote>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Product Promotion Website. All rights reserved.</p>
+  </footer>
+</body>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#banner {
+  background-image: url("product-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+#banner h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+#banner p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #ff5e5e;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff2f2f;
+}
+</style>
+</html>
